@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class BottomComponent {
 
+  cursos =[`JavaScript`];
+  addDatos(nomcapture:String){
+    this.cursos.push(String(nomcapture));
+  }
 }
